@@ -1,0 +1,119 @@
+{
+    "scope": "source.pine",
+    "completions": [
+
+        {
+            "trigger": "and",
+            "annotation": "And",
+            "kind": "keyword",
+            "details": "Logical AND. Applicable to boolean expressions."
+        },
+
+        {
+            "trigger": "or",
+            "annotation": "or",
+            "kind": "keyword",
+            "details": "Logical OR. Applicable to boolean expressions."
+        },
+
+        {
+            "trigger": "not",
+            "annotation": "not",
+            "kind": "keyword",
+            "details": "Logical negation (NOT). Applicable to boolean expressions."
+        },
+
+        {
+            "trigger": "series",
+            "annotation": "series",
+            "kind": "keyword",
+            "details": "To specify the type form required for a function's arguments."
+        },
+
+                {
+            "trigger": "simple",
+            "annotation": "simple",
+            "kind": "keyword",
+            "details": "To specify the type form required for a function's arguments."
+        },
+
+        {
+            "trigger": "export",
+            "annotation": "export",
+            "kind": "keyword",
+            "details": "Declaration of functions that will be available from other scripts importing the library."
+        },
+
+        {
+            "trigger": "import",
+            "annotation": "import",
+            "kind": "keyword",
+            "details": "Used to load an external library into a script and bind its functions to a namespace."
+        },
+
+        {
+            "trigger": "if",
+            "annotation": "If Condition",
+            "contents": "if ${1:condition1} > ${2:condition2}:\n    ${3:result_true}\n else\n    ${4:result_false} $0\n",
+            "kind": "snippet",
+            "details": "If conditional statement snippets"
+        },
+
+        {
+            "trigger": "for",
+            "annotation": "For Loop",
+            "contents": "for ${1:counter} = ${2:from_number} to ${3:other_number}\n     ${4:statements}\n     ${5:return_statement}\n $0\n",
+            "kind": "snippet",
+            "details": "For loop snippets"
+        },
+
+        {
+            "trigger": "for...in",
+            "annotation": "For...In Looping",
+            "contents": "for ${1:number} in ${2:numbers}\n  ${3:statements}\n  ${4:return_statement}\n $0\n",
+            "kind": "snippet",
+            "details": "For...in loop snippets"
+        },
+
+        {
+            "trigger": "switch",
+            "annotation": "Switch Conditional Statement",
+            "contents": "switch ${1:expression}\n ${2:value1} => ${3:local_block}\n ${4:value2} => ${5:local_block}\n ${6:...} \n => ${7:default_local_block}\n $0\n",
+            "kind": "snippet",
+            "details": "Switch with expression snippets"
+        },
+
+        {
+            "trigger": "switch",
+            "annotation": "Switch Conditional Statement",
+            "contents": "switch\n ${1:value1} => ${2:local_block}\n ${3:value2} => ${4:local_block}\n ${5:...} \n => ${6:default_local_block}\n $0\n",
+            "kind": "snippet",
+            "details": "Switch without expression snippets"
+        },
+
+        {
+            "trigger": "var",
+            "annotation": "Variable",
+            "contents": "var ${1:variable_name} = ${2:expression} $0\n",
+            "kind": "snippet",
+            "details": "Variable snippets"
+        },
+
+        {
+            "trigger": "varip",
+            "annotation": "Variable",
+            "contents": "varip ${1:variable_name} = ${2:expression} $0\n",
+            "kind": "snippet",
+            "details": "Var Intrabar Persist snippets"
+        },
+
+        {
+            "trigger": "while",
+            "annotation": "Variable",
+            "contents": "while ${1:boolean_expression}\n ${3:return_expression} $0\n",
+            "kind": "snippet",
+            "details": "While Snippets"
+        }
+
+    ]
+}
