@@ -30,7 +30,7 @@
             "details": "To specify the type form required for a function's arguments."
         },
 
-                {
+        {
             "trigger": "simple",
             "annotation": "simple",
             "kind": "keyword",
@@ -50,6 +50,48 @@
             "kind": "keyword",
             "details": "Used to load an external library into a script and bind its functions to a namespace."
         },
+
+        {
+            "trigger": "for",
+            "annotation": "For Loop",
+            "kind": "keyword",
+            "details": "For loop"
+        },
+
+        {
+            "trigger": "for...in",
+            "annotation": "For...In Looping",
+            "kind": "keyword",
+            "details": "For...in loop"
+        },
+
+        {
+            "trigger": "keyword",
+            "annotation": "Switch Conditional Statement",
+            "kind": "snippet",
+            "details": "Switch Statement"
+        },
+
+        {
+            "trigger": "var",
+            "annotation": "Variable",
+            "kind": "keyword",
+            "details": "Variable"
+        },
+
+        {
+            "trigger": "varip",
+            "annotation": "Varip",
+            "kind": "keyword",
+            "details": "Var Intrabar Persist"
+        },
+
+        {
+            "trigger": "while",
+            "annotation": "While",
+            "kind": "snippet",
+            "details": "While Statement"
+        }
 
     ]
 }
