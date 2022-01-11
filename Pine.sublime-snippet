@@ -1,70 +1,15 @@
-{
-    "scope": "source.pine",
-    "completions": [
+<snippet>
+<scope>source.pine</scope>
+<tabTrigger>if</tabTrigger>
+<content>
 
-        {
-            "trigger": "if",
-            "annotation": "If Condition",
-            "contents": "if ${1:condition1} > ${2:condition2}:\n    ${3:result_true}\n else\n    ${4:result_false} $0\n",
-            "kind": "snippet",
-            "details": "If conditional statement snippets"
-        },
+<![CDATA[
+if ${1:condition1} > ${2:condition2}
+    ${3:result_true}
+    else
+    ${4:result_false}
+]]>
 
-        {
-            "trigger": "for",
-            "annotation": "For Loop",
-            "contents": "for ${1:counter} = ${2:from_number} to ${3:other_number}\n     ${4:statements}\n     ${5:return_statement}\n $0\n",
-            "kind": "snippet",
-            "details": "For loop snippets"
-        },
-
-        {
-            "trigger": "for...in",
-            "annotation": "For...In Looping",
-            "contents": "for ${1:number} in ${2:numbers}\n  ${3:statements}\n  ${4:return_statement}\n $0\n",
-            "kind": "snippet",
-            "details": "For...in loop snippets"
-        },
-
-        {
-            "trigger": "switch",
-            "annotation": "Switch Conditional Statement",
-            "contents": "switch ${1:expression}\n ${2:value1} => ${3:local_block}\n ${4:value2} => ${5:local_block}\n ${6:...} \n => ${7:default_local_block}\n $0\n",
-            "kind": "snippet",
-            "details": "Switch with expression snippets"
-        },
-
-        {
-            "trigger": "switch",
-            "annotation": "Switch Conditional Statement",
-            "contents": "switch\n ${1:value1} => ${2:local_block}\n ${3:value2} => ${4:local_block}\n ${5:...} \n => ${6:default_local_block}\n $0\n",
-            "kind": "snippet",
-            "details": "Switch without expression snippets"
-        },
-
-        {
-            "trigger": "var",
-            "annotation": "Variable",
-            "contents": "var ${1:variable_name} = ${2:expression} $0\n",
-            "kind": "snippet",
-            "details": "Variable snippets"
-        },
-
-        {
-            "trigger": "varip",
-            "annotation": "Variable",
-            "contents": "varip ${1:variable_name} = ${2:expression} $0\n",
-            "kind": "snippet",
-            "details": "Var Intrabar Persist snippets"
-        },
-
-        {
-            "trigger": "while",
-            "annotation": "Variable",
-            "contents": "while ${1:boolean_expression}\n ${3:return_expression} $0\n",
-            "kind": "snippet",
-            "details": "While Snippets"
-        }
-
-    ]
-}
+</content>
+<description>If statement snippet</description>
+</snippet>
