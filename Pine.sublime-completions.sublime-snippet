@@ -1,0 +1,55 @@
+{
+    "scope": "source.pine",
+    "completions": [
+
+        {
+            "trigger": "and",
+            "annotation": "And",
+            "kind": "keyword",
+            "details": "Logical AND. Applicable to boolean expressions."
+        },
+
+        {
+            "trigger": "or",
+            "annotation": "or",
+            "kind": "keyword",
+            "details": "Logical OR. Applicable to boolean expressions."
+        },
+
+        {
+            "trigger": "not",
+            "annotation": "not",
+            "kind": "keyword",
+            "details": "Logical negation (NOT). Applicable to boolean expressions."
+        },
+
+        {
+            "trigger": "series",
+            "annotation": "series",
+            "kind": "keyword",
+            "details": "To specify the type form required for a function's arguments."
+        },
+
+                {
+            "trigger": "simple",
+            "annotation": "simple",
+            "kind": "keyword",
+            "details": "To specify the type form required for a function's arguments."
+        },
+
+        {
+            "trigger": "export",
+            "annotation": "export",
+            "kind": "keyword",
+            "details": "Declaration of functions that will be available from other scripts importing the library."
+        },
+
+        {
+            "trigger": "import",
+            "annotation": "import",
+            "kind": "keyword",
+            "details": "Used to load an external library into a script and bind its functions to a namespace."
+        },
+
+    ]
+}
